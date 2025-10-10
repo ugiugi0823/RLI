@@ -28,14 +28,12 @@
 .logo {
   height: 80px;
   width: auto;
-  filter: brightness(0) invert(1);
   opacity: 0.95;
   transition: all 0.3s ease;
-}
-
-.inha-logo {
-  height: 80px;
-  filter: brightness(0) invert(1) drop-shadow(0 0 2px rgba(255,255,255,0.3));
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
 }
 
 .logo:hover {
@@ -153,15 +151,13 @@
 
   .logo {
     height: 60px;
+    padding: 8px;
   }
 
   .iccv-logo {
     height: 50px;
   }
 
-  .inha-logo {
-    height: 60px;
-  }
 
   .title {
     font-size: 1.8rem;
@@ -204,15 +200,13 @@
 
   .logo {
     height: 50px;
+    padding: 6px;
   }
 
   .iccv-logo {
     height: 45px;
   }
 
-  .inha-logo {
-    height: 50px;
-  }
 
   .title {
     font-size: 1.4rem;

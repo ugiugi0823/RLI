@@ -30,10 +30,6 @@
   width: auto;
   opacity: 0.95;
   transition: all 0.3s ease;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 10px;
-  border-radius: 8px;
-  backdrop-filter: blur(10px);
 }
 
 .logo:hover {
@@ -151,7 +147,6 @@
 
   .logo {
     height: 60px;
-    padding: 8px;
   }
 
   .iccv-logo {
@@ -200,7 +195,6 @@
 
   .logo {
     height: 50px;
-    padding: 6px;
   }
 
   .iccv-logo {

@@ -13,24 +13,24 @@ const Method = () => {
       <h2 className="section-title">Method</h2>
       <div className="text-content">
         <p>
-          우리의 방법은 두 가지 주요 단계로 구성됩니다:
+          Our method consists of two main stages:
         </p>
         <ul>
           <li>
-            <strong>Image Reconstruction:</strong> 원본 이미지를 Denoising U-Net을 통해 재구성합니다. 
-            이 과정에서 소스 프롬프트를 사용하여 이미지의 특징을 학습합니다.
+            <strong>Image Reconstruction:</strong> The original image is reconstructed through a denoising U-Net. 
+            During this process, the source prompt is used to learn the features of the image.
           </li>
           <li>
-            <strong>Image Editing:</strong> 타겟 프롬프트를 사용하여 이미지를 편집하며, 
-            Self-Attention Layer의 Up Blocks에서 Residual Fusion을 적용합니다. 
-            이를 통해 편집 영역 외의 배경을 효과적으로 보존합니다.
+            <strong>Image Editing:</strong> The image is edited using the target prompt, while residual fusion 
+            is applied in the up blocks of the self-attention layers. This effectively preserves the background 
+            outside the editing region.
           </li>
         </ul>
         <p>
-          핵심 아이디어는 <strong>Self-Attention Layer에서 Residual을 학습</strong>하는 것입니다. 
-          Query, Key, Value를 통한 기존 attention 결과에 residual을 가중치(α)로 융합하여 
-          배경 정보를 보존합니다. 이 방법은 다양한 편집 방법과 inversion 기법에 
-          플러그인 형태로 쉽게 통합될 수 있습니다.
+          The key idea is to <strong>learn residuals in the self-attention layers</strong>. The residual is 
+          fused with weight (α) to the existing attention results through Query, Key, and Value, thereby 
+          preserving background information. This method can be easily integrated as a plug-in into various 
+          editing methods and inversion techniques.
         </p>
       </div>
       
@@ -43,10 +43,10 @@ const Method = () => {
           transition={{ duration: 0.3 }}
         />
         <p className="figure-caption">
-          <strong>그림 2.</strong> 제안된 RLI 프레임워크. Image Reconstruction과 Image Editing 단계를 
-          거치며, U-Net의 Self-Attention Layer Up Blocks에서 Residual Fusion을 적용합니다. 
-          오른쪽 상세 그림에서 Pre-attention Features와 Post-attention Features 사이에 
-          Residual을 융합하는 과정을 확인할 수 있습니다.
+          <strong>Figure 2.</strong> The proposed RLI framework. It goes through Image Reconstruction and 
+          Image Editing stages, applying residual fusion in the self-attention layer up blocks of the U-Net. 
+          The detailed diagram on the right shows the process of fusing residuals between pre-attention 
+          features and post-attention features.
         </p>
       </div>
     </motion.section>

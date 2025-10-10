@@ -10,7 +10,7 @@ const MainResults = () => {
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6 }}
     >
-      <h2 className="section-title">배경 보존 성능 비교</h2>
+      <h2 className="section-title">Background Preservation Comparison</h2>
       <div className="figure-container">
         <motion.img 
           src="/RLI/asset/1.jpg" 
@@ -20,9 +20,10 @@ const MainResults = () => {
           transition={{ duration: 0.3 }}
         />
         <p className="figure-caption">
-          <strong>그림 1.</strong> 다양한 편집 방법들과의 배경 보존 성능 비교. 
-          RLI를 적용한 경우 (w/ ours) 배경이 더 잘 보존되며, LPIPS, PSNR 등의 메트릭에서 
-          큰 성능 향상을 보입니다. 붉은 원으로 표시된 영역에서 배경 보존의 차이를 명확히 확인할 수 있습니다.
+          <strong>Figure 1.</strong> Comparison of background preservation performance with various editing methods. 
+          When RLI is applied (w/ ours), the background is better preserved, showing significant performance 
+          improvements in metrics such as LPIPS and PSNR. The difference in background preservation can be 
+          clearly seen in the areas marked with red circles.
         </p>
       </div>
     </motion.section>

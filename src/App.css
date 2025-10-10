@@ -101,8 +101,8 @@
 /* Text Styles */
 .text-content p {
   font-size: 1.1rem;
-  line-height: 1.9;
-  margin-bottom: 20px;
+  line-height: 1.6;
+  margin-bottom: 16px;
   text-align: justify;
   color: var(--text-color);
 }
@@ -114,8 +114,8 @@
 
 .text-content li {
   font-size: 1.1rem;
-  margin-bottom: 15px;
-  line-height: 1.8;
+  margin-bottom: 12px;
+  line-height: 1.6;
 }
 
 .text-content strong {
@@ -141,6 +141,7 @@
   .text-content p,
   .text-content li {
     font-size: 1rem;
+    line-height: 1.5;
   }
 }
 

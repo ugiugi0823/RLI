@@ -11,28 +11,6 @@ const Method = () => {
       transition={{ duration: 0.6 }}
     >
       <h2 className="section-title">Method</h2>
-      <div className="text-content">
-        <p>
-          Our method consists of two main stages:
-        </p>
-        <ul>
-          <li>
-            <strong>Image Reconstruction:</strong> The original image is reconstructed through a denoising U-Net. 
-            During this process, the source prompt is used to learn the features of the image.
-          </li>
-          <li>
-            <strong>Image Editing:</strong> The image is edited using the target prompt, while residual fusion 
-            is applied in the up blocks of the self-attention layers. This effectively preserves the background 
-            outside the editing region.
-          </li>
-        </ul>
-        <p>
-          The key idea is to <strong>learn residuals in the self-attention layers</strong>. The residual is 
-          fused with weight (α) to the existing attention results through Query, Key, and Value, thereby 
-          preserving background information. This method can be easily integrated as a plug-in into various 
-          editing methods and inversion techniques.
-        </p>
-      </div>
       
       <div className="figure-container">
         <motion.img 

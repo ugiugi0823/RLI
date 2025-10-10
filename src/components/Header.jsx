@@ -43,6 +43,15 @@ const Header = ({ scrolled }) => {
           ICCV Workshop 2025
         </motion.p>
         
+        <motion.p 
+          className="workshop"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.35, duration: 0.6 }}
+        >
+          MMFM4: The 4th Workshop on What is Next in Multimodal Foundation Models?
+        </motion.p>
+        
         <motion.div 
           className="authors"
           initial={{ opacity: 0 }}

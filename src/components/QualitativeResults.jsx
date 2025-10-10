@@ -11,18 +11,6 @@ const QualitativeResults = () => {
       transition={{ duration: 0.6 }}
     >
       <h2 className="section-title">Qualitative Results</h2>
-      <div className="text-content">
-        <p>
-          The effectiveness of RLI can be observed across various editing scenarios. 
-          When RLI is applied to combinations of multiple baseline methods (P2P, MasaCtrl, PnP, etc.) 
-          and various inversion techniques (DDIM, Direct Inversion, Null-text Inversion, Negative-prompt Inversion), 
-          the background outside the editing region is better preserved.
-        </p>
-        <p>
-          In particular, even in images with complex backgrounds, we can confirm that only the target object 
-          is accurately edited while the surrounding environment remains identical to the original.
-        </p>
-      </div>
       
       <div className="figure-container">
         <motion.img 

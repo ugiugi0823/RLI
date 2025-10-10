@@ -25,7 +25,7 @@ const Footer = () => {
               <FaEnvelope />
               acerghjk@inha.edu
             </a>
-            <a href="https://github.com/ugiugi0823/RLI" className="contact-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/ugiugi0823/ICCVW-RLI" className="contact-link" target="_blank" rel="noopener noreferrer">
               <FaGithub />
               GitHub Repository
             </a>

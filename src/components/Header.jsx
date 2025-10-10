@@ -78,7 +78,7 @@ const Header = ({ scrolled }) => {
           <a href="#" className="btn btn-paper">
             <FaFilePdf /> Paper
           </a>
-          <a href="https://github.com/ugiugi0823/RLI" className="btn btn-code" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/ugiugi0823/ICCVW-RLI" className="btn btn-code" target="_blank" rel="noopener noreferrer">
             <FaGithub /> Code
           </a>
           <button onClick={() => scrollToSection('citation')} className="btn btn-bibtex">

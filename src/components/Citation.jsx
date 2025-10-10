@@ -6,9 +6,9 @@ import './Citation.css'
 const Citation = () => {
   const [copied, setCopied] = useState(false)
 
-  const bibtex = `@inproceedings{rli2025,
-  title={RLI: Residual Learning in Inversion for Image Editing},
-  author={Your Name},
+  const bibtex = `@inproceedings{jo2025plug,
+  title={A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models},
+  author={Jo, Hyunwook and Maeng, Jiseung and Park, Jun Hyung and Ahn, Namhyuk and Park, In Kyu},
   booktitle={ICCV Workshop},
   year={2025}
 }`

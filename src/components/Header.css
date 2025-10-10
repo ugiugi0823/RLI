@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2E348F 0%, #1a1e5c 100%);
   color: white;
   padding: 80px 20px;
   text-align: center;
@@ -15,6 +15,35 @@
 .header-content {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+  filter: brightness(0) invert(1);
+  opacity: 0.95;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.iccv-logo {
+  height: 70px;
+}
+
+.inha-logo {
+  height: 80px;
 }
 
 .title {
@@ -34,13 +63,14 @@
 }
 
 .authors {
-  font-size: 1.2rem;
-  margin-bottom: 18px;
+  font-size: 1.15rem;
+  margin-bottom: 20px;
   font-weight: 500;
+  line-height: 1.6;
 }
 
 .author {
-  margin: 0 12px;
+  margin: 0 5px;
   transition: color 0.3s ease;
 }
 
@@ -49,9 +79,21 @@
 }
 
 .affiliations {
-  font-size: 1.05rem;
+  font-size: 1rem;
   margin-bottom: 40px;
-  opacity: 0.9;
+  opacity: 0.92;
+  line-height: 1.8;
+}
+
+.affiliations p {
+  margin: 8px 0;
+}
+
+.emails {
+  font-size: 0.9rem;
+  font-family: 'Courier New', monospace;
+  margin-top: 12px;
+  opacity: 0.85;
 }
 
 .links {
@@ -103,12 +145,29 @@
     padding: 30px 20px;
   }
 
+  .logos {
+    gap: 25px;
+    margin-bottom: 25px;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  .iccv-logo {
+    height: 50px;
+  }
+
+  .inha-logo {
+    height: 60px;
+  }
+
   .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .conference {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .authors {
@@ -116,7 +175,11 @@
   }
 
   .affiliations {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+  }
+
+  .emails {
+    font-size: 0.8rem;
   }
 
   .links {
@@ -133,12 +196,41 @@
 }
 
 @media (max-width: 480px) {
+  .logos {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  .iccv-logo {
+    height: 45px;
+  }
+
+  .inha-logo {
+    height: 50px;
+  }
+
   .title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .conference {
-    font-size: 1.1rem;
+    font-size: 1rem;
+  }
+
+  .authors {
+    font-size: 0.9rem;
+  }
+
+  .affiliations {
+    font-size: 0.85rem;
+  }
+
+  .emails {
+    font-size: 0.75rem;
   }
 
   .btn {

@@ -13,17 +13,17 @@ const Footer = () => {
     >
       <div className="container footer-content">
         <div className="footer-section">
-          <h3>RLI Project</h3>
-          <p>Residual Learning in Inversion for Image Editing</p>
+          <h3>Project</h3>
+          <p>A Plug-and-Play Approach for Robust Image Editing</p>
           <p className="conference-tag">ICCV Workshop 2025</p>
         </div>
         
         <div className="footer-section">
           <h3>Contact</h3>
           <div className="contact-links">
-            <a href="mailto:your-email@example.com" className="contact-link">
+            <a href="mailto:acerghjk@inha.edu" className="contact-link">
               <FaEnvelope />
-              your-email@example.com
+              acerghjk@inha.edu
             </a>
             <a href="https://github.com/ugiugi0823/RLI" className="contact-link" target="_blank" rel="noopener noreferrer">
               <FaGithub />
@@ -45,7 +45,7 @@ const Footer = () => {
       
       <div className="footer-bottom">
         <div className="container">
-          <p>&copy; 2025 RLI Project. All rights reserved.</p>
+          <p>&copy; 2025 Inha University. All rights reserved.</p>
           <p>Built with React + Vite + Framer Motion</p>
         </div>
       </div>

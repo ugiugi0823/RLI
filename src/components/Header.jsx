@@ -15,13 +15,23 @@ const Header = ({ scrolled }) => {
       transition={{ duration: 0.6 }}
     >
       <div className="container header-content">
+        <motion.div 
+          className="logos"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.1, duration: 0.6 }}
+        >
+          <img src="/RLI/asset/ICCV_logo.png" alt="ICCV Logo" className="logo iccv-logo" />
+          <img src="/RLI/asset/inha_logo.png" alt="Inha University Logo" className="logo inha-logo" />
+        </motion.div>
+
         <motion.h1 
           className="title"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
-          RLI: Residual Learning in Inversion for Image Editing
+          A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models
         </motion.h1>
         
         <motion.p 
@@ -39,7 +49,11 @@ const Header = ({ scrolled }) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.6 }}
         >
-          <span className="author">Your Name</span><sup>1</sup>
+          <span className="author">Hyunwook Jo</span>,
+          <span className="author">Jiseung Maeng</span>,
+          <span className="author">Jun Hyung Park</span>,
+          <span className="author">Namhyuk Ahn</span>, and
+          <span className="author">In Kyu Park</span>
         </motion.div>
         
         <motion.div 
@@ -48,7 +62,11 @@ const Header = ({ scrolled }) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.6 }}
         >
-          <sup>1</sup>Your Institution
+          <p>Department of Electrical and Computer Engineering, Inha University</p>
+          <p>Incheon 22212, Korea</p>
+          <p className="emails">
+            {'{acerghjk@inha.edu, jiseung@inha.edu, kevin2001112@inha.edu, nhahn@inha.ac.kr, pik@inha.ac.kr}'}
+          </p>
         </motion.div>
         
         <motion.div 

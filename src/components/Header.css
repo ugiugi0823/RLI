@@ -33,6 +33,11 @@
   transition: all 0.3s ease;
 }
 
+.inha-logo {
+  height: 80px;
+  filter: brightness(0) invert(1) drop-shadow(0 0 2px rgba(255,255,255,0.3));
+}
+
 .logo:hover {
   opacity: 1;
   transform: scale(1.05);
@@ -40,10 +45,6 @@
 
 .iccv-logo {
   height: 70px;
-}
-
-.inha-logo {
-  height: 80px;
 }
 
 .title {

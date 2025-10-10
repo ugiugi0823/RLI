@@ -22,7 +22,7 @@ const Header = ({ scrolled }) => {
           transition={{ delay: 0.1, duration: 0.6 }}
         >
           <img src="/RLI/asset/ICCV_logo.png" alt="ICCV Logo" className="logo iccv-logo" />
-          <img src="/RLI/asset/inha_logo.png" alt="Inha University Logo" className="logo inha-logo" />
+          <img src="/RLI/asset/inha.svg" alt="Inha University Logo" className="logo inha-logo" />
         </motion.div>
 
         <motion.h1 

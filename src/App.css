@@ -1,0 +1,139 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 60px 20px;
+}
+
+/* Section Base Styles */
+.section {
+  background: var(--white);
+  border-radius: 16px;
+  padding: 50px;
+  margin-bottom: 40px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+.section:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid var(--primary-color);
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100px;
+  height: 4px;
+  background: var(--secondary-color);
+}
+
+/* Figure Styles */
+.figure-container {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.figure-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.figure-img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.figure-caption {
+  font-size: 1rem;
+  color: var(--text-light);
+  text-align: left;
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, #f8f9fa, #ffffff);
+  border-left: 5px solid var(--primary-color);
+  border-radius: 0 8px 8px 0;
+  line-height: 1.8;
+}
+
+/* Text Styles */
+.text-content p {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: var(--text-color);
+}
+
+.text-content ul {
+  margin: 25px 0;
+  padding-left: 35px;
+}
+
+.text-content li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.text-content strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 40px 15px;
+  }
+
+  .section {
+    padding: 30px 20px;
+    margin-bottom: 30px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .text-content p,
+  .text-content li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 25px 15px;
+    border-radius: 12px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .figure-caption {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+}
+

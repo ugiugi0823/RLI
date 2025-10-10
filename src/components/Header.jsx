@@ -72,8 +72,7 @@ const Header = ({ scrolled }) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.6 }}
         >
-          <p>Department of Electrical and Computer Engineering, Inha University</p>
-          <p>Incheon 22212, Korea</p>
+          <p>Department of Electrical and Computer Engineering, Inha University, Incheon 22212, Korea</p>
           <p className="emails">
             {'{acerghjk@inha.edu, jiseung@inha.edu, kevin2001112@inha.edu, nhahn@inha.ac.kr, pik@inha.ac.kr}'}
           </p>

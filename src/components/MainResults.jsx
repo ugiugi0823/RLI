@@ -10,7 +10,7 @@ const MainResults = () => {
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6 }}
     >
-      <h2 className="section-title">Background Preservation Comparison</h2>
+      <h2 className="section-title">Demo</h2>
       <div className="figure-container">
         <motion.img 
           src="/RLI/asset/1.jpg" 

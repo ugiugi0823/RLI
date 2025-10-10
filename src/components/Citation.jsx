@@ -45,9 +45,16 @@ const Citation = () => {
       <div className="text-content" style={{ marginTop: '30px' }}>
         <h3 style={{ color: 'var(--primary-color)', marginBottom: '15px' }}>Acknowledgements</h3>
         <p>
-          This work was supported by Institute of Information & communications Technology Planning & Evaluation (IITP) 
-          grant funded by the Korea government (MSIT) (No.RS-2022-00155911, Artificial Intelligence Convergence Innovation 
-          Human Resources Development (Inha University)). We thank all the reviewers for their valuable feedback and suggestions.
+          This work was supported by the Institute of Information & communications Technology Planning & Evaluation (IITP) 
+          grant funded by the Korean government (MSIT) under the following research projects:
+        </p>
+        <ul style={{ marginTop: '15px', paddingLeft: '20px' }}>
+          <li>No.RS-2022-00155915: Artificial Intelligence Convergence Innovation Human Resources Development (Inha University)</li>
+          <li>No.RS-2021-II212068: Artificial Intelligence Innovation Hub</li>
+          <li>No.IITP-2024-RS-2024-00360227: Leading Generative AI Human Resources Development</li>
+        </ul>
+        <p style={{ marginTop: '15px' }}>
+          We thank all the reviewers for their valuable feedback and suggestions.
         </p>
       </div>
     </motion.section>

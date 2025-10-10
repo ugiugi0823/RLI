@@ -46,7 +46,6 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="container">
           <p>&copy; 2025 Inha University. All rights reserved.</p>
-          <p>Built with React + Vite + Framer Motion</p>
         </div>
       </div>
     </motion.footer>

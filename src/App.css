@@ -144,7 +144,7 @@
   .text-content li {
     font-size: 1rem;
     line-height: 1.4;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.04em;
   }
 }
 
@@ -156,6 +156,11 @@
 
   .section-title {
     font-size: 1.5rem;
+  }
+
+  .text-content p,
+  .text-content li {
+    letter-spacing: -0.05em;
   }
 
   .figure-caption {

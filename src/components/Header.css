@@ -41,6 +41,10 @@
   height: 70px;
 }
 
+.vcl-logo {
+  height: 70px;
+}
+
 .title {
   font-size: 3rem;
   font-weight: 800;
@@ -163,6 +167,10 @@
     height: 50px;
   }
 
+  .vcl-logo {
+    height: 50px;
+  }
+
 
   .title {
     font-size: 1.8rem;
@@ -212,6 +220,10 @@
   }
 
   .iccv-logo {
+    height: 45px;
+  }
+
+  .vcl-logo {
     height: 45px;
   }
 

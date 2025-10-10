@@ -23,6 +23,7 @@ const Header = ({ scrolled }) => {
         >
           <img src="/RLI/asset/ICCV_logo.png" alt="ICCV Logo" className="logo iccv-logo" />
           <img src="/RLI/asset/inha.svg" alt="Inha University Logo" className="logo inha-logo" />
+          <img src="/RLI/asset/vcl_logo_horizontal.png" alt="Visual Computing & Learning Lab Logo" className="logo vcl-logo" />
         </motion.div>
 
         <motion.h1 

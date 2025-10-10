@@ -14,7 +14,7 @@ const MainResults = () => {
       <div className="figure-container">
         <motion.img 
           src="/RLI/asset/1.jpg" 
-          alt="Background Preservation Comparison" 
+          alt="Demo" 
           className="figure-img"
           whileHover={{ scale: 1.02 }}
           transition={{ duration: 0.3 }}

@@ -21,10 +21,7 @@ const Method = () => {
           transition={{ duration: 0.3 }}
         />
         <p className="figure-caption">
-          <strong>Figure 2.</strong> The proposed RLI framework. It goes through Image Reconstruction and 
-          Image Editing stages, applying residual fusion in the self-attention layer up blocks of the U-Net. 
-          The detailed diagram on the right shows the process of fusing residuals between pre-attention 
-          features and post-attention features.
+          <strong>Figure 2.</strong> The pipeline of our proposed Residual Linear Interpolation.
         </p>
       </div>
     </motion.section>

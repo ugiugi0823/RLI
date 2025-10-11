@@ -21,12 +21,7 @@ const QuantitativeResults = () => {
           transition={{ duration: 0.3 }}
         />
         <p className="figure-caption">
-          <strong>Table 1.</strong> Quantitative results of applying RLI to combinations of various editing 
-          methods (P2P, MasaCtrl, PnP) and inversion techniques (DDIM, Direct, NT, NP). 
-          The green checkmark (✓) indicates RLI application, and the percentages in parentheses represent 
-          the improvement rate. Performance improved across all metrics when RLI was applied, with 
-          particularly significant improvements in background preservation-related metrics 
-          (Structure Distance, LPIPS).
+          <strong>Table 1.</strong> 
         </p>
       </div>
     </motion.section>

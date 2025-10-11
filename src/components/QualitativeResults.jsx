@@ -21,11 +21,7 @@ const QualitativeResults = () => {
           transition={{ duration: 0.3 }}
         />
         <p className="figure-caption">
-          <strong>Figure 3.</strong> Qualitative results of applying RLI to various editing methods 
-          (Editing: P2P, MasaCtrl, PnP / Inversion: DDIM, Direct, Null-text, Negative-prompt). 
-          Each row shows a different editing task, and red circles indicate unintended background changes. 
-          In the "+ RLI" column where RLI is applied, these issues are significantly improved and the 
-          background is better preserved.
+          <strong>Figure 3.</strong> Image editing results of Prompt-to-Prompt model with various inversion methods with and without RLI.
         </p>
       </div>
     </motion.section>

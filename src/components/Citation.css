@@ -70,3 +70,14 @@
   }
 }
 
+@media (max-width: 480px) {
+  .bibtex-container {
+    padding: 45px 15px 15px 15px;
+  }
+
+  .bibtex-container pre {
+    font-size: 0.8rem;
+    line-height: 1.6;
+  }
+}
+

@@ -8,8 +8,9 @@ const Citation = () => {
 
   const bibtex = `@inproceedings{jo2025plug,
   title={A Plug-and-Play Approach for Robust Image Editing in Text-to-Image Diffusion Models},
-  author={Jo, Hyunwook and Maeng, Jiseung and Park, Jun Hyung and Ahn, Namhyuk and Park, In Kyu},
-  booktitle={ICCV Workshop},
+  author={Hyunwook Jo, Jiseung Maeng, Jun Hyung Park, Namhyuk Ahn, In Kyu Park},
+  booktitle={Proc. IEEE/CVF International Conference on Computer Vision Workshop},
+  month={October},
   year={2025}
 }`
 

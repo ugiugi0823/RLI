@@ -145,6 +145,7 @@
     font-size: 1rem;
     line-height: 1.4;
     letter-spacing: -0.08em;
+    text-align: left;
   }
 }
 
@@ -161,6 +162,7 @@
   .text-content p,
   .text-content li {
     letter-spacing: -0.1em;
+    text-align: left;
   }
 
   .figure-caption {

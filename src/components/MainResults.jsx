@@ -20,10 +20,7 @@ const MainResults = () => {
           transition={{ duration: 0.3 }}
         />
         <p className="figure-caption">
-          <strong>Figure 1.</strong> Comparison of background preservation performance with various editing methods. 
-          When RLI is applied (w/ ours), the background is better preserved, showing significant performance 
-          improvements in metrics such as LPIPS and PSNR. The difference in background preservation can be 
-          clearly seen in the areas marked with red circles.
+          <strong>Figure 1.</strong> Our simple yet effective RLI method integrates seamlessly into various image editing techniques, consistently improving results qualitatively and quantitatively. RLI ensures superior preservation of original content and background, while enabling robust image editing that faithfully aligns with textual prompts, overcoming prior limitations in semantic accuracy and structural preservation.
         </p>
       </div>
     </motion.section>

@@ -21,7 +21,9 @@ const QuantitativeResults = () => {
           transition={{ duration: 0.3 }}
         />
         <p className="figure-caption">
-          <strong>Table 1.</strong> 
+          <strong>Table 1.</strong> Comparison of structure distance ("Structure"), background preservation 
+          (PSNR, SSIM, and LPIPS), and CLIP score ("CLIP") with and without RLI across various editing and 
+          inversion methods. For readability, LPIPS scales by 10³ and the rest except PSNR by 10².
         </p>
       </div>
     </motion.section>

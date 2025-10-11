@@ -25,8 +25,8 @@ function App() {
     <div className="App">
       <Header scrolled={scrolled} />
       <main className="main-content">
-        <Abstract />
         <MainResults />
+        <Abstract />
         <Method />
         <QualitativeResults />
         <QuantitativeResults />
